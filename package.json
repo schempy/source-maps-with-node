@@ -1,0 +1,16 @@
+{
+  "name": "source-map-testing",
+  "version": "0.0.1",
+  "description": "Source Maps",
+  "scripts": {
+    "prepublish": "babel --out-dir dist lib --source-maps"
+  },
+  "author": "Brian Schemp",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "source-map-support": "~0.2.10",
+    "babel": "~5.2.17"
+  }
+}
